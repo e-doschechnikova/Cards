@@ -1,0 +1,32 @@
+.radioBtn {
+  display: flex;
+  align-items: baseline;
+
+  margin: 10px;
+
+  color: #ab274f;
+
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.radioBtn input {
+  position: relative;
+  appearance: none;
+
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  top: 4px;
+
+  cursor: pointer;
+
+  border: 1px solid #4c2f27;
+  border-radius: 50%;
+  transition: 0.2s all linear;
+}
+
+.radioBtn input:checked {
+  border: 4px solid #dabdab;
+  background-color: #480607;
+}
