@@ -1,10 +1,6 @@
 import React from "react";
-import s from "../../../n1_main/m1_ui/common/styles/Wrapper.module.scss"
+import s from "../../../n1_main/m1_ui/common/styles/Wrapper.module.scss";
 
 export const Login = () => {
-    return (
-        <div className={s.wrapper}>
-            Login
-        </div>
-    );
+  return <div className={s.wrapper}>Login</div>;
 };

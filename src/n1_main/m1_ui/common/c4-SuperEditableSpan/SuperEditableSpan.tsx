@@ -5,7 +5,7 @@ import React, {
   useState,
 } from "react";
 import SuperInputText from "../c1-SuperInputText/SuperInputText";
-import s from './SuperEditableSpan.module.scss'
+import s from "./SuperEditableSpan.module.scss";
 
 // тип пропсов обычного инпута
 type DefaultInputPropsType = DetailedHTMLProps<

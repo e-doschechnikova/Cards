@@ -1,79 +1,79 @@
 @import url("https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi&display=swap");
 
 .default {
-    margin: 5px 5px;
-    padding: 4px 4px;
+  margin: 5px 5px;
+  padding: 4px 4px;
 
-    font-family: "Tiro Devanagari Marathi", serif;
-    font-size: 15px;
-    font-weight: 300;
-    outline: none;
-    text-decoration: none;
+  font-family: "Tiro Devanagari Marathi", serif;
+  font-size: 15px;
+  font-weight: 300;
+  outline: none;
+  text-decoration: none;
 
-    min-width: min-content;
-    max-width: max-content;
+  min-width: min-content;
+  max-width: max-content;
 
-    background-color: #dabdab;
-    border: 1px solid #79443b;
-    border-radius: 5px;
-    color: #4c2f27;
+  background-color: #dabdab;
+  border: 1px solid #79443b;
+  border-radius: 5px;
+  color: #4c2f27;
 
-    box-shadow: rgba(45, 35, 66, 0.6) 0 8px 10px,
+  box-shadow: rgba(45, 35, 66, 0.6) 0 8px 10px,
     rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #bc987e 0 -3px 0 inset;
-    transform: translateY(-2px);
-    cursor: pointer;
+  transform: translateY(-2px);
+  cursor: pointer;
 }
 
 .default:hover {
-    background: #4c2f27;
-    color: #dabdab;
+  background: #4c2f27;
+  color: #dabdab;
 
-    font-weight: 600;
+  font-weight: 600;
 
-    box-shadow: none;
+  box-shadow: none;
 
-    transition: 0.3s;
-    letter-spacing: 1px;
+  transition: 0.3s;
+  letter-spacing: 1px;
 }
 
 .default:disabled {
-    background: #dabdab;
-    opacity: 60%;
-    pointer-events: none;
+  background: #dabdab;
+  opacity: 60%;
+  pointer-events: none;
 }
 
 .red {
-    margin: 5px 5px;
-    padding: 5px 10px;
+  margin: 5px 5px;
+  padding: 5px 10px;
 
-    font-family: "Tiro Devanagari Marathi", serif;
-    font-size: 15px;
-    font-weight: 300;
-    outline: none;
-    text-decoration: none;
+  font-family: "Tiro Devanagari Marathi", serif;
+  font-size: 15px;
+  font-weight: 300;
+  outline: none;
+  text-decoration: none;
 
-    min-width: min-content;
-    max-width: max-content;
+  min-width: min-content;
+  max-width: max-content;
 
-    background-color: #eb4c42;
-    border: 1px solid #ab274f;
-    border-radius: 5px;
-    color: #480607;
+  background-color: #eb4c42;
+  border: 1px solid #ab274f;
+  border-radius: 5px;
+  color: #480607;
 
-    box-shadow: rgba(202, 51, 64, 0.562) 0 8px 10px,
+  box-shadow: rgba(202, 51, 64, 0.562) 0 8px 10px,
     rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #ab274f 0 -3px 0 inset;
-    transform: translateY(-2px);
-    cursor: pointer;
+  transform: translateY(-2px);
+  cursor: pointer;
 }
 
 .red:hover {
-    color: #eb4c42;
+  color: #eb4c42;
 
-    font-weight: 600;
+  font-weight: 600;
 
-    background: #480607;
-    box-shadow: none;
+  background: #480607;
+  box-shadow: none;
 
-    transition: 0.3s;
-    letter-spacing: 1px;
+  transition: 0.3s;
+  letter-spacing: 1px;
 }
